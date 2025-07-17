@@ -16,7 +16,7 @@ This repository demonstrates multiple approaches for medical order extraction fr
 - Organized **notebooks** and **prompt templates**
 
 ## 📂 Repository Layout
-
+```
 MEDIQA-OE-2025/
 │
 ├── src/mediqa_oe/                     # Python package for core logic
@@ -37,6 +37,7 @@ MEDIQA-OE-2025/
 ├── pyproject.toml                 # Dependency config
 ├── README.md                      # Main documentation
 └── uv.lock
+```
 
 ## 🔧 Installation
 
