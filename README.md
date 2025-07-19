@@ -19,9 +19,9 @@ This repository demonstrates multiple approaches for medical order extraction fr
 ```
 MEDIQA-OE-2025/
 │
-├── src/mediqa_oe/                     # Python package for core logic
+├── src/mediqa_oe/                    
 │   ├── __init__.py
-│   ├── data.py               # API call logic to vLLM server
+│   ├── data.py               
 │   └── lm
 │        ├──__init__.py
 │        ├── base.py
@@ -29,9 +29,9 @@ MEDIQA-OE-2025/
 │
 ├── notebooks/                     # Organized by approach
 │   ├── .env.template
-│   ├── 01_few_shot_prompting.ipynb         # Zero-shot approach
-│   ├── 02_recct_reasoning.ipynb          # Few-shot prompt experiments
-│   ├── 03_agentic_approach.ipynb       # ReAct-based approach
+│   ├── 01_few_shot_prompting.ipynb       
+│   ├── 02_recct_reasoning.ipynb         
+│   ├── 03_agentic_approach.ipynb       
 │   
 ├── main.py
 ├── pyproject.toml                 # Dependency config
@@ -58,8 +58,8 @@ pip install .
 * Sign in to RunPod
 * Launch a Custom Pod with:
     - **Image**: runpod/vllm-openai:latest
-    -**GPU**: 2*(A10 GPUs 48 vRAM 9 vCPU)
-    -**Disk**: ≥ 80GB
+    - **GPU**: 2*(A10 GPUs 48 vRAM 9 vCPU)
+    - **Disk**: ≥ 80GB
 * Attach your Hugging Face token for gated models
 
 
