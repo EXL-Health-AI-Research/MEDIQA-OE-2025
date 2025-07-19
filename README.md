@@ -58,7 +58,7 @@ pip install .
 * Sign in to RunPod
 * Launch a Custom Pod with:
     - **Image**: runpod/vllm-openai:latest
-    -**GPU**: 2 A10 GPUs 48 vRAM 9 vCPU
+    -**GPU**: 2*(A10 GPUs 48 vRAM 9 vCPU)
     -**Disk**: ≥ 80GB
 * Attach your Hugging Face token for gated models
 
@@ -82,4 +82,7 @@ Inside the container, execute:
 | Few-Shot Prompting   |       0.5090      |
 | ReAct Reasoning      |       0.3891      |
 | Agentic Approach     |       0.4602      |
+
+### Final Submission
+In Leaderboard we submitted the score of **0.5090** with **Few-Shot Prompting** Approach
 
