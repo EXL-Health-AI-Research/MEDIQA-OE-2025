@@ -12,7 +12,7 @@ This repository demonstrates multiple approaches for medical order extraction fr
 - Multiple approaches:
   - **Few-Shot Prompting**
   - **ReAct Reasoning**
-  - **Agent Prompting**
+  - **Agent Approach**
 - Organized **notebooks** and **prompt templates**
 
 ## 📂 Repository Layout
@@ -29,9 +29,9 @@ MEDIQA-OE-2025/
 │
 ├── notebooks/                     # Organized by approach
 │   ├── .env.template
-│   ├── 01_zero_shot.ipynb         # Zero-shot approach
-│   ├── 02_few_shot.ipynb          # Few-shot prompt experiments
-│   ├── 03_react_agent.ipynb       # ReAct-based approach
+│   ├── 01_few_shot_prompting.ipynb         # Zero-shot approach
+│   ├── 02_recct_reasoning.ipynb          # Few-shot prompt experiments
+│   ├── 03_agentic_approach.ipynb       # ReAct-based approach
 │   
 ├── main.py
 ├── pyproject.toml                 # Dependency config
